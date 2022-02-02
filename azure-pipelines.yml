@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'az204-testing-rg'
     location: 'East US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://ssharmaHome@dev.azure.com/ssharmaHome/devOpsDeployments/_git/devOpsVmDeployment/vmDeploy.json'
+    csmFileLink: 'https://dev.azure.com/ssharmaHome/devOpsDeployments/_git/devOpsVmDeployment?path=/vmDeploy.json'
     overrideParameters: '-projectName devOpsDeployments'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
